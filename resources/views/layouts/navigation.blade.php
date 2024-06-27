@@ -15,7 +15,7 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('chat.index')" :active="request()->routeIs('chat.index')">
+                    <x-nav-link :href="route('chat-rooms.index')" :active="request()->routeIs('chat-rooms.index')">
                         {{ __('Chat') }}
                     </x-nav-link>
                 </div>
@@ -73,7 +73,7 @@
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('chat.index')" :active="request()->routeIs('chat.index')">
+            <x-responsive-nav-link :href="route('chat-rooms.index')" :active="request()->routeIs('chat-rooms.index')">
                 {{ __('Chat') }}
             </x-responsive-nav-link>
         </div>
